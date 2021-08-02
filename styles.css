@@ -5,7 +5,7 @@ body {
 	background-color: black;
 }
 #header {
-	display: flex;
+	display: flex;	
 	height: 1.6vh;
 	width: 90vw;
 	background-color: #deaaff;
@@ -63,7 +63,7 @@ body {
 .jobs,
 .submit {
 	margin-right: 5px;
-	margin-top: 1px;
+	
 }
 
 .new1,
@@ -89,19 +89,19 @@ body {
 .submit1:hover {
 	text-decoration: none;
 	color: red;
-	font-size: 9px;
+	font-size: 8px;
 	border: 1px solid white;
 	box-shadow: slategrey;
-	padding-left: 4px;
+	padding-left: 4px; 
 	padding-right: 4px;
-	margin-right: 3px;
+	margin-right: 3px;	
 }
 
 .login {
 	display: flex;
 	justify-content: flex-end;
 	width: 400px;
-	font-size: 6.5px;
+	font-size: 6px;
 }
 
 .login1 {
@@ -115,7 +115,7 @@ body {
 .login1:hover {
 	text-decoration: none;
 	color: red;
-	font-size: 9px;
+	font-size: 8px;
 	border: 1px solid white;
 	box-shadow: slategrey;
 	padding-left: 4px;
@@ -243,15 +243,31 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	width: 170px;
-	height: 150px;
+	height: 180px;
+	width: 180px;	
 	font-size: 12px;
 	margin-top: 10px;
 	margin-left: 5px;
 	border: 1px solid black;
+	box-shadow: 5px 4px 5px 3px gray;
+	border-radius: 30px;
 	background-color: #d0d1ff;
 }
 
+.card {
+	width: 150px;
+	margin-left: 15px;
+	border-radius: 15px;
+	padding: 5px;
+}
+
+p {
+	margin-bottom: -3px;
+}
+.card-body {
+	margin: -15px;
+	
+}
 .parent1 {
 	display: flex;
 	text-decoration: none;
@@ -262,10 +278,13 @@ body {
 
 .child {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
+	text-align: center;
 	color: red;
 	opacity: 50%;
 	margin-top: 5px;
+	
 }
 
 @media screen and (max-width: 700px) {
@@ -292,8 +311,6 @@ body {
 
 	.parent {
 		flex-direction: column;
-		width: 130px;
-		height: 50px;
 		font-size: 8px;
 	}
 }
@@ -301,4 +318,6 @@ body {
 .parent:hover {
 	margin-left: 15px;
 	margin-top: -10px;
+	
 }
+

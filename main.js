@@ -43,11 +43,11 @@ async function makeApiRequest() {
                 </div>
             </div>              
                 `;
-
 			const child = document.createElement("div");
 			child.className = "child";
-			child.innerText = `${newdata.score} points by ${newdata.by}
-            total comments ${newdata.descendants}`;
+			child.innerHTML = `
+            <p>${newdata.score} points by ${newdata.by}</p>
+            <p>total comments: ${newdata.descendants}</p>`;
 			body.appendChild(parent);
 			parent.appendChild(child);
 		});
