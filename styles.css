@@ -1,0 +1,298 @@
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: black;
+}
+#header {
+	display: flex;
+	height: 1.6vh;
+	width: 90vw;
+	background-color: #deaaff;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+#logo {
+	display: flex;
+	width: 114px;
+	height: 1.6vh;
+}
+
+.logoArtImg {
+	display: flex;
+	align-items: center;
+	border: 1px white solid;
+	transform: rotate(180deg);
+	width: 8px;
+	height: 8px;
+	margin-top: 1px;
+	margin-left: 1px;
+}
+
+.title {
+	display: flex;
+	height: 1.6vh;
+	width: 58px;
+	margin-left: 1px;
+	align-content: center;
+	justify-content: center;
+}
+
+.mainTitle {
+	text-decoration: none;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 5pt;
+	font: bold;
+	color: #222222;
+	margin-top: 1px;
+}
+
+#links {
+	display: flex;
+	justify-content: left;
+	width: 400px;
+	font-size: 8px;
+}
+
+.new,
+.past,
+.comments,
+.ask,
+.show,
+.jobs,
+.submit {
+	margin-right: 5px;
+	margin-top: 1px;
+}
+
+.new1,
+.past1,
+.comments1,
+.ask1,
+.show1,
+.jobs1,
+.submit1 {
+	text-decoration: none;
+	color: white;
+	border: 1px solid black;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+.new1:hover,
+.past1:hover,
+.comments1:hover,
+.ask1:hover,
+.show1:hover,
+.jobs1:hover,
+.submit1:hover {
+	text-decoration: none;
+	color: red;
+	font-size: 9px;
+	border: 1px solid white;
+	box-shadow: slategrey;
+	padding-left: 4px;
+	padding-right: 4px;
+	margin-right: 3px;
+}
+
+.login {
+	display: flex;
+	justify-content: flex-end;
+	width: 400px;
+	font-size: 6.5px;
+}
+
+.login1 {
+	text-decoration: none;
+	color: white;
+	border: 1px solid black;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+.login1:hover {
+	text-decoration: none;
+	color: red;
+	font-size: 9px;
+	border: 1px solid white;
+	box-shadow: slategrey;
+	padding-left: 4px;
+	padding-right: 4px;
+	margin-right: 3px;
+}
+
+#main {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 90vw;
+	background-color: #c0fdff;
+}
+
+#more {
+	display: flex;
+	height: 1.5vh;
+	width: 90vw;
+	background-color: #c0fdff;
+}
+
+.morelink {
+	font-size: 8px;
+	text-decoration: none;
+	color: grey;
+	margin-left: 20px;
+}
+
+.morelink:hover {
+	color: red;
+	border: 1px solid white;
+	font-size: 12px;
+}
+#footer {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	height: 10vh;
+	width: 90vw;
+	border-top: 2px solid #deaaff;
+	background-color: #c0fdff;
+}
+
+.apply {
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+	color: black;
+	font-size: 0.55em;
+}
+/* window color: #ffcbf2 */
+
+#links2 {
+	display: flex;
+	justify-content: center;
+}
+
+.guidelines,
+.faq,
+.lists,
+.api,
+.security,
+.legal,
+.apply,
+.contact {
+	margin-right: 5px;
+	margin-top: 1px;
+	margin-bottom: 10px;
+	font-size: 8px;
+}
+
+.guidelines1,
+.faq1,
+.lists1,
+.api1,
+.security1,
+.legal1,
+.apply1,
+.contact1 {
+	text-decoration: none;
+	color: black;
+	border: 1px solid black;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+.guidelines1:hover,
+.faq1:hover,
+.lists1:hover,
+.api1:hover,
+.security1:hover,
+.legal1:hover,
+.apply1:hover,
+.contact1:hover {
+	text-decoration: none;
+	color: red;
+	font-size: 9px;
+	border: 1px solid white;
+	box-shadow: slategrey;
+	padding-left: 4px;
+	padding-right: 4px;
+	margin-right: 3px;
+}
+
+.search {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.search1 {
+	height: 10px;
+	text-align: center;
+}
+
+.form1 {
+	text-align: center;
+	font-size: 8px;
+}
+
+.parent {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 170px;
+	height: 90px;
+	font-size: 12px;
+	margin-top: 10px;
+	margin-left: 5px;
+	border: 1px solid black;
+	background-color: #d0d1ff;
+}
+
+.parent1 {
+	display: flex;
+	text-decoration: none;
+	color: black;
+	justify-content: center;
+	text-align: center;
+}
+
+.child {
+	display: flex;
+	justify-content: center;
+	color: red;
+	opacity: 50%;
+	margin-top: 5px;
+}
+
+@media screen and (max-width: 700px) {
+	#header {
+		display: flex;
+		flex-direction: column;
+		height: 95px;
+		background-color: #deaaff;
+		padding-top: 1px;
+		padding-bottom: 1px;
+	}
+	#links {
+		display: flex;
+		flex-direction: column;
+		justify-content: left;
+		width: 400px;
+		font-size: 8px;
+	}
+	.login {
+		display: flex;
+		flex-direction: column;
+		width: 25px;
+	}
+
+	.parent {
+		flex-direction: column;
+		width: 130px;
+		height: 50px;
+		font-size: 8px;
+	}
+}

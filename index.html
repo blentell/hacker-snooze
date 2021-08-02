@@ -1,16 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hacker Snooze</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Hacker Snooze</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<div id="header">
+			<div id="logo">
+				<div class="logoArt">
+					<a href="https://news.ycombinator.com">
+						<img
+							class="logoArtImg"
+							src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAYElEQVQ4jWP4n8bwnxqYYaQZBAXfunSxihNt0M+Nxf////8PofGIEee1/////398CsF/fAqna/Aa9GNhONwFMNf8WBhOZmDDXIHuOlINgrkEX9gQH/14YmrUINLwMDYIAFNINgiZOK8mAAAAAElFTkSuQmCC"
+						/>
+					</a>
+				</div>
+				<div class="title">
+					<a class="mainTitle" href="https://news.ycombinator.com/news"
+						>Hacker Snooze</a
+					>
+				</div>
+			</div>
+			<div id="links">
+				<div class="new">
+					<a class="new1" href="https://news.ycombinator.com/newest">new</a>
+				</div>
+				<div class="past">
+					<a class="past1" href="https://news.ycombinator.com/front">past</a>
+				</div>
+				<div class="comments">
+					<a class="comments1" href="https://news.ycombinator.com/newcomments"
+						>comments</a
+					>
+				</div>
+				<div class="ask">
+					<a class="ask1" href="https://news.ycombinator.com/ask">ask</a>
+				</div>
+				<div class="show">
+					<a class="show1" href="https://news.ycombinator.com/show">show</a>
+				</div>
+				<div class="jobs">
+					<a class="jobs1" href="https://news.ycombinator.com/jobs">jobs</a>
+				</div>
+				<div class="submit">
+					<a class="submit1" href="https://news.ycombinator.com/submit"
+						>submit</a
+					>
+				</div>
+			</div>
+			<div class="login">
+				<a class="login1" href="https://news.ycombinator.com/login?goto=news"
+					>login</a
+				>
+			</div>
+		</div>
+		<div id="main"></div>
+		<div id="more">
+			<a
+				href="https://news.ycombinator.com/news?p=2"
+				class="morelink"
+				rel="next"
+				>More</a
+			>
+		</div>
+		<div id="footer">
+			<div class="application">
+				<a href="https://news.ycombinator.com/apply" class="apply" rel="next"
+					>Applications are open for YC Winter 2022</a
+				>
+			</div>
+			<div id="links2">
+				<div class="guidelines">
+					<a
+						class="guidelines1"
+						href="https://news.ycombinator.com/newsguidelines.html"
+						>Guidelines</a
+					>
+				</div>
+				<div class="faq">
+					<a class="faq1" href="https://news.ycombinator.com/newsfaq.html"
+						>FAQ</a
+					>
+				</div>
+				<div class="lists">
+					<a class="lists1" href="https://news.ycombinator.com/lists">Lists</a>
+				</div>
+				<div class="api">
+					<a class="api1" href="https://github.com/HackerNews/API">API</a>
+				</div>
+				<div class="security">
+					<a class="security1" href="https://news.ycombinator.com/security.html"
+						>Security</a
+					>
+				</div>
+				<div class="legal">
+					<a class="legal1" href="https://news.ycombinator.com/legal">Legal</a>
+				</div>
+				<div class="apply">
+					<a class="apply1" href="https://news.ycombinator.com/apply"
+						>Apply to YC</a
+					>
+				</div>
+				<div class="contact">
+					<a class="contact1" href="mailto:hn@ycombinator.com">Contact</a>
+				</div>
+			</div>
+			<div class="search">
+				<form class="form1" method="get" action="//hn.algolia.com/">
+					Search:
+					<input
+						class="search1"
+						type="text"
+						name="q"
+						value=""
+						size="17"
+						autocorrect="off"
+						spellcheck="false"
+						autocapitalize="none"
+						autocomplete="false"
+					/>
+				</form>
+			</div>
+		</div>
 
-    
-
-    <script src="main.js"></script>
-</body>
+		<script src="main.js"></script>
+	</body>
 </html>
