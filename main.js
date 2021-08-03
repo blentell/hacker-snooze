@@ -1,24 +1,4 @@
-// Example adding two elements to the DOM
-
 const body = document.querySelector("#main");
-
-// const parent = document.createElement("div");
-// parent.className = "parent";
-// parent.innerText = "Bacon may disappear.";
-// const child = document.createElement("div");
-// child.className = "child";
-// child.innerText = "1 point by woldermariam";
-// parent.appendChild(child);
-// body.appendChild(parent);
-
-// Result:
-//
-// <body>
-//     <div class="parent">
-//         <div class="child">
-//         </div>
-//     </div>
-// </body>
 
 async function makeApiRequest() {
 	const rawData = await fetch(
@@ -26,7 +6,7 @@ async function makeApiRequest() {
 	);
 	const data = await rawData.json();
 
-	for (let i = 0; i < 100; i++) {
+	for (let i = 0; i < data.length; i++) {
 		await fetch(
 			`https://hacker-news.firebaseio.com/v0/item/${data[i]}.json?print=pretty`
 		).then(async function (data) {
